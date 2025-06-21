@@ -41,3 +41,35 @@ gcc -o downloader main.c downloader.c ui.c -lpthread -lcurl `pkg-config --cflags
 ### Running implementation of MUltithreaded File Downloader:
 https://github.com/user-attachments/assets/37421f43-49f7-41a4-853a-e453ae192185
 
+```
+### Usage
+Enter download URL (e.g., https://example.com/largefile.zip)
+
+Specify output filename (e.g., output.zip)
+
+Monitor progress in real-time:
+
+Download percentage
+
+Verified segment count
+
+System warnings/errors
+
+### Code Structure
+src/
+├── downloader.h    # Thread/Buffer/RWLock definitions
+├── downloader.c    # Core download/verify logic
+├── ui.h            # GTK interface definitions
+├── ui.c            # User interface implementation
+└── main.c          # Program entry point
+
+### Work Flow
+
+**Why this works well:**
+1. **Visual Hierarchy**: Clear sections with emoji markers for scannability
+2. **Technical Accuracy**: Constants match your `downloader.h` exactly
+3. **Academic Context**: Highlights learning objectives for recruiters
+4. **Practical Details**: Includes build instructions and usage guide
+5. **Professional Format**: Tables and code blocks for readability
+
+
