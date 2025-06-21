@@ -56,13 +56,14 @@ Verified segment count
 System warnings/errors
 
 ### Code Structure
+```bash
 src/
 ├── downloader.h    # Thread/Buffer/RWLock definitions
 ├── downloader.c    # Core download/verify logic
 ├── ui.h            # GTK interface definitions
 ├── ui.c            # User interface implementation
 └── main.c          # Program entry point
-
+```
 ### Work Flow
 
 **Why this works well:**
@@ -71,5 +72,10 @@ src/
 3. **Academic Context**: Highlights learning objectives for recruiters
 4. **Practical Details**: Includes build instructions and usage guide
 5. **Professional Format**: Tables and code blocks for readability
+
+### Video Demonstration:
+
+https://github.com/user-attachments/assets/758cb1ab-6eb5-401b-8426-9e288b2f4ab1
+
 
 
